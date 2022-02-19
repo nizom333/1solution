@@ -1,6 +1,9 @@
 ```bash
 docker-compose up -d
-
-crate migrations
-cd app && vendor/bin/doctrine orm:schema-tool:create
 ```
+
+Создание миграции
+cd app && vendor/bin/doctrine orm:schema-tool:create
+
+Приложение
+http://localhost:8080/
